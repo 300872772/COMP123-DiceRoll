@@ -10,7 +10,7 @@ using System.Threading.Tasks;
   * Date: July 11, 2016 
   * Description: This program demonstrates a Dice Rolling Simulation  
   *  
-  * Version: 0.0.1 - added all method and constructor 
+  * Version: 0.0.2 - call object in driver class 
   */ 
 
 namespace COMP123_DiceRolling
@@ -19,6 +19,10 @@ namespace COMP123_DiceRolling
     {
         static void Main(string[] args)
         {
+            Random diceRoll = new Random();
+
+             diceRoll.BuildDisplay();
+            
 
         }
     }
